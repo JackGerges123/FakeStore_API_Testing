@@ -1,0 +1,12 @@
+# Ignore auto-generated report files
+allure-results/* linguist-vendored
+allure-report/* linguist-vendored
+test-output/* linguist-vendored
+
+# Ignore HTML, CSS, JS (from reports)
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+
+# Always count Java files
+*.java linguist-detectable=true
